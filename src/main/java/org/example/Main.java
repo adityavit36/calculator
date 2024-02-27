@@ -51,6 +51,7 @@ public class Main {
                     System.out.println("Invalid choice. Please try again...");
             }
         } while (choice != 5);
+        System.out.println("You are Out of do-while loop");
         scanner.close();
     }
 }
